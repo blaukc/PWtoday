@@ -9,7 +9,7 @@ var lst = ['0', '0', '0', '0', '0', '0', '0', '939', '674', '461', '832', '083',
 
 function submit() {
     'use strict';
-    var pw = lst[10 - 1];//today.getDate() - 1];
+    var pw = lst[today.getDate() - 1];
     if (pw === '0') {
         alert('Today is not the day :(');
     } else {
